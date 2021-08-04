@@ -6,6 +6,12 @@ public class Main {
         // get its 2 bit
         int b3 = (x >> 2) & 1;
         System.out.println(b3);
+
+        short y = -1;
+        char z = (char) y;
+        byte b = (byte) z;
+        int a = b;
+        System.out.println(a);
     }
 
     public static int getKth(int x, int k) {
