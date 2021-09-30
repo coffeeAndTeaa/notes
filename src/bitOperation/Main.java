@@ -2,16 +2,17 @@ package bitOperation;
 
 public class Main {
     public static void main(String[] args) {
-        int x = 0b00100;
-        // get its 2 bit
-        int b3 = (x >> 2) & 1;
-        System.out.println(b3);
-
-        short y = -1;
-        char z = (char) y;
-        byte b = (byte) z;
-        int a = b;
-        System.out.println(a);
+//        int x = 0b00100;
+//        // get its 2 bit
+//        int b3 = (x >> 2) & 1;
+//        System.out.println(b3);
+//
+//        short y = -1;
+//        char z = (char) y;
+//        byte b = (byte) z;
+//        int a = b;
+//        System.out.println(a);
+        System.out.println((int)(Math.random()*10));
     }
 
     public static int getKth(int x, int k) {
